@@ -1,11 +1,13 @@
 # Menghapus/ Membatalkan Commit Terakhir Sebelum di Push ke Github
 
-**Membatalkan Commit Terakhir dan Menyimpan Perubahannya di Working Directory**
+**Membatalkan Commit Terakhir dan Menyimpan Perubahannya di Staging Area**
    
     git reset --soft HEAD~1
+
+**Membatalkan Commit terakhir dari Staging Area tetapi tetap mempertahankan perubahan di Working Directory**
     
 
-**Membatalkan Commit Terakhir dan Menghapus Perubahannya dari Working Directory**
+**Membatalkan Commit Terakhir dan Menghapus Perubahannya dari Staging Area maupun Working Directory**
 
     git reset --hard HEAD~1
 
